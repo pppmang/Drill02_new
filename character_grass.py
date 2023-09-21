@@ -10,7 +10,7 @@ def render_frame(x, y): # x,y 위치에 캐릭터를 그려줄 수 있는 함수
     clear_canvas_now()
     grass.draw_now(400, 30)
     character.draw_now(x, y)
-    delay(0.1)
+    delay(0.01)
 
 def run_circle():
     print('CIRCLE')
@@ -41,8 +41,7 @@ def run_rectangle():
         render_frame(50, y)     
 
 while True:
-    #run_circle()
+    run_circle()
     run_rectangle()
-    break
 
 close_canvas()
