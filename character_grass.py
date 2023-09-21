@@ -24,11 +24,17 @@ def run_circle():
 def run_rectangle():
     print('RECTANGLE')
 
-    for x in range(50, 750+1, 5):
-        render_frame(x, 90)
+    # bottom
+    #for x in range(50, 750+1, 5):
+        #render_frame(x, 90)
+
+    # top
+    for x in range(750, 50-1, -5):
+        render_frame(x, 550)
+        
 
 while True:
-    run_circle()
+    #run_circle()
     run_rectangle()
     break
 
