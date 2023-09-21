@@ -29,8 +29,12 @@ def run_rectangle():
         #render_frame(x, 90)
 
     # top
-    for x in range(750, 50-1, -5):
-        render_frame(x, 550)
+    #for x in range(750, 50-1, -5):
+        #render_frame(x, 550)
+
+    # right
+    for y in range(90, 550+1, 5):
+        render_frame(750, y)
         
 
 while True:
